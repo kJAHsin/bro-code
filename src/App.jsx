@@ -1,8 +1,12 @@
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+
 function App() {
   return (
-    <div className="flex mt-[8vw]">
-      <h1 className="inline-flex mx-auto text-green-800 text-4xl">Hello World!</h1>
-    </div>
+    <>
+      <Header />
+      <Footer />
+    </>
   )
 }
 
