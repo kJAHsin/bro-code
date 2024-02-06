@@ -17,7 +17,13 @@ export default {
         'black': '#000000'
       },
       backgroundImage: {
-        'DRM-logo': "url('./DRM-logo.png')"
+        'DRM-logo': "url('./DRM-logo.png')",
+        'DRM-logo__full': "url('./DRM-logo__full.png')",
+        'viking-lattice': "url('./bg-pattern.png')",
+        'toggle-icon': "url('./toggle-icon.svg')"
+      },
+      backgroundSize: {
+        'quadruple': '400%'
       }
     },
   },
