@@ -28,14 +28,13 @@ const Header = () => {
                         backgroundRepeat: 'repeat-x',
                         backgroundSize: 'contain',
                         position: 'absolute',
-                        inset: '0',
-                        borderInline: '2px solid limegreen'
+                        inset: '0'
                         }} className={classes("viking-lattice")}></div>
                     <ul aria-roledescription='navigation' aria-expanded="false" role='navigation' className={classes("nav")}>
-                        <li className={classes("nav-links")}><Link to="/">Home</Link></li>
-                        <li className={classes("nav-links")}><Link to="/events">Events</Link></li>
-                        <li className={classes("nav-links")}><Link to="/about">About us</Link></li>
-                        <li className={classes("nav-links")}><Link to="/contact">Contact</Link></li>
+                        <li className={classes("nav-links")}><Link className='py-8 block' to="/">Home</Link></li>
+                        <li className={classes("nav-links")}><Link className='py-8 block' to="/events">Events</Link></li>
+                        <li className={classes("nav-links")}><Link className='py-8 block' to="/about">About us</Link></li>
+                        <li className={classes("nav-links")}><Link className='py-8 block' to="/contact">Contact</Link></li>
                     </ul>
                     <div id='logo' className={classes("logo")}>
                         <Link to="/" style={{

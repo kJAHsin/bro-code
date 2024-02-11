@@ -48,11 +48,11 @@ const classes = (el) => {
                 "border-2",
                 "border-transparent", 
                 "border-b-gold",
-                "py-8",
                 "text-center",
                 "hover:border-gold",
                 "transition",
-                "duration-700"
+                "duration-700",
+                "cursor-pointer"
             ];
             break;
         case "hamburger-toggle-btn":
