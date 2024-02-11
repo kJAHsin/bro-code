@@ -133,6 +133,7 @@ const classes = (el) => {
         case "viking-lattice":
             classList = [
                 "bg-viking-lattice",
+                "bg-black",
                 "bg-repeat-x",
                 "bg-contain",
                 "absolute",
