@@ -30,6 +30,7 @@ const classes = (el) => {
                 "left-0",
                 "bg-black",
                 "text-white",
+                // adjust width to make responsive
                 "w-1/3",
                 "h-screen",
                 "-translate-x-full",
@@ -39,6 +40,7 @@ const classes = (el) => {
                 "transition-transform",
                 "duration-1000",
                 "ease-in-out",
+                // keep menu on top
                 "z-10"
             ];
             break;
