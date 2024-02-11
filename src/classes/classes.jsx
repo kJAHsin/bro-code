@@ -64,14 +64,14 @@ const classes = (el) => {
             classList = [
                 "z-20",
                 "absolute",
-                "bottom-3",
+                "bottom-7",
                 "left-1/2",
                 "-translate-x-1/2",
-                "py-2",
+                "py-1",
                 "px-6",
-                "border-2",
+                "border-[3px]",
                 "border-gold",
-                "rounded-sm",
+                "rounded-md",
                 "bg-gradient-to-r",
                 "from-transparent",
                 "to-50%",
@@ -81,11 +81,11 @@ const classes = (el) => {
                 "bg-left",
                 "group",
                 "hover:bg-right",
-                "hover:border-lightGrey",
+                "hover:border-black",
                 "transition-all",
                 "duration-[1300ms]",
-                "active:border-darkGrey",
-                "hover:bottom-3.5"
+                "active:border-gold",
+                "active:duration-300"
             ];
             break;
         case "hamburger-toggle-icon":
