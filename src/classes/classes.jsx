@@ -78,7 +78,7 @@ const classes = (el) => {
                 "hover:bg-right",
                 "hover:border-lightGrey",
                 "transition-all",
-                "duration-700",
+                "duration-[1300ms]",
                 "active:border-darkGrey",
                 "hover:bottom-3.5"
             ];
@@ -111,16 +111,16 @@ const classes = (el) => {
                 "bg-no-repeat",
                 "bg-bottom",
                 "block",
-                "h-48",
+                "h-36",
                 "aspect-video",
-                "mb-32",
+                "mb-20",
                 "relative",
                 "after:content['']",
                 "after:absolute",
                 "after:right-8",
                 "after:left-8",
                 "after:-bottom-2",
-                "after:h-1.5",
+                "after:h-0.5",
                 "after:bg-gold",
                 "after:rounded-full"
             ];

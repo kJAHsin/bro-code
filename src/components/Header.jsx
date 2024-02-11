@@ -23,7 +23,14 @@ const Header = () => {
         <>
             <header className={classes("header")}>
                 <div id="contentWrapper" className={classes("content-wrapper")}>
-                    <div className={classes("viking-lattice")}></div>
+                    <div style={{
+                        backgroundImage: 'url("../assets/bg-pattern.png")',
+                        backgroundRepeat: 'repeat-x',
+                        backgroundSize: 'contain',
+                        position: 'absolute',
+                        inset: '0',
+                        borderInline: '2px solid limegreen'
+                        }} className={classes("viking-lattice")}></div>
                     <ul aria-roledescription='navigation' aria-expanded="false" role='navigation' className={classes("nav")}>
                         <li className={classes("nav-links")}><Link to="/">Home</Link></li>
                         <li className={classes("nav-links")}><Link to="/events">Events</Link></li>
@@ -31,7 +38,7 @@ const Header = () => {
                         <li className={classes("nav-links")}><Link to="/contact">Contact</Link></li>
                     </ul>
                     <div id='logo' className={classes("logo")}>
-                        <a href="/" className={classes("logo-img")}></a>
+                        <Link to="/" className={classes("logo-img")}></Link>
                     </div>
                     <button onClick={handleNavToggle} className={classes("hamburger-toggle-btn")}>
                         <span className={classes("hamburger-toggle-icon")}>
