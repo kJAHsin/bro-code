@@ -18,7 +18,8 @@ const classes = (el) => {
                 "relative",
                 "border-b-2",
                 "border-b-darkGrey",
-                "h-fit"
+                "h-fit",
+                "bg-white"
             ];
             break;
         case "nav":
@@ -30,6 +31,8 @@ const classes = (el) => {
                 "left-0",
                 "bg-black",
                 "text-white",
+                "border-r-gold",
+                "border-r-2",
                 // adjust width to make responsive
                 "w-1/3",
                 "h-screen",
