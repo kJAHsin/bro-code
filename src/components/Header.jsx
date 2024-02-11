@@ -24,7 +24,7 @@ const Header = () => {
             <header className={classes("header")}>
                 <div id="contentWrapper" className={classes("content-wrapper")}>
                     <div style={{
-                        backgroundImage: 'url("../assets/bg-pattern.png")',
+                        backgroundImage: `url("/bg-pattern.png")`,
                         backgroundRepeat: 'repeat-x',
                         backgroundSize: 'contain',
                         position: 'absolute',
@@ -38,7 +38,17 @@ const Header = () => {
                         <li className={classes("nav-links")}><Link to="/contact">Contact</Link></li>
                     </ul>
                     <div id='logo' className={classes("logo")}>
-                        <Link to="/" className={classes("logo-img")}></Link>
+                        <Link to="/" style={{
+                            backgroundImage: `url("/DRM-logo__full.png")`,
+                            backgroundSize: 'contain',
+                            backgroundRepeat: 'no-repeat',
+                            backgroundPosition: 'bottom',
+                            display: 'block',
+                            height: '9rem',
+                            aspectRatio: '16 / 9',
+                            marginBlockEnd: '5rem',
+                            position: 'relative',
+                        }} className={classes("logo-img")}></Link>
                     </div>
                     <button onClick={handleNavToggle} className={classes("hamburger-toggle-btn")}>
                         <span className={classes("hamburger-toggle-icon")}>
