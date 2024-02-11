@@ -104,6 +104,7 @@ const classes = (el) => {
                 "to-40%",
                 "to-white",
                 "mx-auto",
+                "mb-2",
                 "z-10",
                 "px-8",
                 "rounded-b-2xl"
@@ -133,7 +134,7 @@ const classes = (el) => {
         case "viking-lattice":
             classList = [
                 "bg-viking-lattice",
-                "bg-black",
+                "bg-black", 
                 "bg-repeat-x",
                 "bg-contain",
                 "absolute",
